@@ -16,7 +16,7 @@ namespace Capital_Coffee_Final_front
         }
         protected void btnAddtoMenu_Click(object sender, EventArgs e)
         {
-            string connstr = "Provider=Microsoft.ACE.OLEDB.12.0;Data Source=" + Server.MapPath("~/App_Data/Product_Management.mdb");
+            string connstr = "Provider=Microsoft.ACE.OLEDB.12.0;Data Source=" + Server.MapPath("~/Product_Management.mdb");
             string query = "INSERT INTO Product_Information (product_name, product_price, product_stocks, discounts) VALUES (?, ?, ?, ?)";
 
             string productName = txtNewProductName.Text;
