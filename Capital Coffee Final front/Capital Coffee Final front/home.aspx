@@ -1,22 +1,10 @@
-﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site1.master.cs" Inherits="Capital_Coffee_Final_front.Site1" %>
+﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Site1.Master" AutoEventWireup="true" CodeBehind="home.aspx.cs" Inherits="Capital_Coffee_Final_front.WebForm3" %>
+<asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
+</asp:Content>
 
-<!DOCTYPE html>
+<asp:Content ID="Content2" runat="server" contentplaceholderid="ContentPlaceHolder1">
+    <style>
 
-<html>
-<head runat="server">
-    <title>Capital Coffee</title>
-    <asp:ContentPlaceHolder ID="head" runat="server">
-    </asp:ContentPlaceHolder>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
-    <form id="form1" runat="server">
-        <div>
-            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
-                <style>
                     @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;600&family=Rancho&display=swap');
 
                     h1, h2, h3, h4, h5, h6 {
@@ -981,23 +969,23 @@
                         text-align: center;
                     }
                 </style>
-                <header>
-                    <nav>
-                        <ul>
-                            <li><a href="#">About</a></li>
-                            <li><a href="#">Order</a></li>
-                            <li><a href="#">Contact</a></li>
-                            <li><a href="#">Direction</a>
-                        </ul>
-                        <h2 class="auto-style1">Capital Coffee</h2>
-                        <div class="cart">
-                            <p>
-                                <a href="#">Shop Now </a>
-                            </p>
-                            &nbsp;
-                        </div>
-                    </nav>
-                </header>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Order</a></li>
+                <li><a href="#">Contact</a></li>
+                <li><a href="#">Direction</a>
+            </ul>
+            <h2 class="auto-style1">Capital Coffee</h2>
+            <div class="cart">
+                <p>
+                    <a href="#">Shop Now </a>
+                </p>
+                &nbsp;
+            </div>
+        </nav>
+    </header>
 
                 <!-- first section end -->
 
@@ -1053,9 +1041,9 @@
                                             Call Us
                                         </p>
                                         <span>
-                                            <p>
-                                                +6399999999
-                                            </p>
+                                        <p>
+                                            +6399999999
+                                        </p>
                                         </span>
                                     </div>
                                 </div>
@@ -1067,9 +1055,9 @@
                                             E-mail
                                         </p>
                                         <span>
-                                            <p>
-                                                capitalcoffe@gmail.com
-                                            </p>
+                                        <p>
+                                            capitalcoffe@gmail.com
+                                        </p>
                                         </span>
                                     </div>
                                 </div>
@@ -1083,9 +1071,9 @@
                                         Address
                                     </p>
                                     <span>
-                                        <p>
-                                            4025, Pulo, Cabuyao, Laguna
-                                        </p>
+                                    <p>
+                                        4025, Pulo, Cabuyao, Laguna
+                                    </p>
                                     </span>
                                 </div>
                             </div>
@@ -1115,9 +1103,8 @@
                             © 2024 Copyright Capital Coffee. All Rights Reserved.
                         </p>
                     </footer>
-                </section>
-            </asp:ContentPlaceHolder>
-        </div>
-    </form>
-</body>
-</html>
+    </section>
+</asp:Content>
+
+
+
